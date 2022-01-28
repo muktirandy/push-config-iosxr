@@ -14,8 +14,8 @@ for ip in devices:
         device = {
             'device_type': 'cisco_xr',
             'host': ip,
-            'username': 'epnm',
-            'password': "3pnM1s4t!",
+            'username': 'usernamehere',
+            'password': "passwordhere",
             'ssh_config_file': '/home/randymukti/.ssh/proxy_epnm',
             'conn_timeout': 40,
             'banner_timeout': 40
